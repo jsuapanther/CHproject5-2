@@ -53,7 +53,7 @@
 
    </article>
    <script>
-	functionprocessInput() { 
+	function processInput() { 
 	   var propertyWidth =300; 
 	   var propertyHeight =100; 
 	   var winLeft = ((screen.width - propertyWidth) /2); 
@@ -63,7 +63,7 @@
       	   winOptions +=",top="+ winTop; 
 	   window.open("confirm.html", "confirm", winOptions);
 	 }
-	functioncreateEventListener() {
+	function createEventListener() {
 	   var submitButton =document.getElementById("submit");
 	   if (submitButton.addEventListener) { 
                submitButton.addEventListener("click", processInput, false);  
